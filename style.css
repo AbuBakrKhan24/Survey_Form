@@ -34,13 +34,7 @@ body {
     min-height: 2em;
   }
 
-  input,
-  textarea,
-  select {
-    margin: 10px 0 0 0;
-      width: 100%;
-    min-height: 2em;
-  }
+
   
   input, textarea {
     background-color: #0a0a23;
@@ -58,6 +52,7 @@ body {
     border-color: #1b1b32;
     min-width: 300px;
   }
+  
   #submit:hover {
     background-color: white;
     transition: 0.5s;
