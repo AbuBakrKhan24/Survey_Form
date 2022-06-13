@@ -5,8 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css"> 
 </head>
 <body>
-    
-</body>
+    <div class="container">
+    <h1 id="title">Welcome to the Survey Form</h1>
+    <p id="description">This form is a test to see how much I have learned so far.</p>
+    <form id="survey-form">
+      <label id="name-label">
+        Fullname:
+      <input id="name" type="text" required placeholder="Your Name Here...">
+      </label>
+      <label id="email-label">
+        Email:
+      <input id="email" type="email" required placeholder="Your Email Here...">
+      </label>
+      <label id="number-label">
+        Age:
+      <input id="number" type="number" min="1" max="50" placeholder="e.g 12">
+      </label>
+      <select id="dropdown">
+        <option>Option1</option>
+        <option>Option2</option>
+      </select>
+      Does this Survey Form look okay?
+      <label>
+        Yes
+      <input type="radio" name="Yes_No">
+      </label>
+      <label>
+        No
+      <input type="radio" name="Yes_No">
+      </label>
+      <h2>Check all the boxes if you like those things:</h2>
+      <label>
+        NetFlix
+      <input type="checkbox" value="response">
+      </label>
+      <label>
+        CodMobile
+      <input type="checkbox" value="response">
+      </label>
+      <label>
+        Fortnite
+      <input type="checkbox" value="response">
+      </label>
+      <label>
+        YouTube
+      <input type="checkbox" value="response">
+      </label>
+      <label>
+        Instagram
+      <input type="checkbox" value="response">
+      </label>
+      <label>
+        Facebook
+      <input type="checkbox" value="response">
+      </label>
+      <label>
+        Twitter
+      <input type="checkbox" value="response">
+      </label>
+      <label>
+        FreeCodeCamp
+      <input type="checkbox" value="response">
+      </label>
+            <textarea>
+
+      </textarea>
+      <button id="submit">Submit</button>
+    </form>
+</div>
+  </body>
 </html>
